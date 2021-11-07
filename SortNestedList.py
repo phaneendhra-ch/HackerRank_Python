@@ -9,7 +9,7 @@ Sorting the list w.r.t  nested list value
 1 23 12
 6 5 9
 
-1 -> sort wrt to 1 index
+1 -> sort wrt to 1 index (column)
 
 
 Output:
@@ -35,7 +35,7 @@ if __name__ == '__main__':
         arr.append(list(map(int, input().rstrip().split())))
 
     k = int(input())
-    
+
     arr =       sorted(arr,
                 key = lambda arr:arr[k],
                 reverse = False
