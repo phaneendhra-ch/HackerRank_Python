@@ -7,6 +7,7 @@ Validate a Postal Code by following given condition
     -> Cannot have same numvers at alternate positions.
         Eg : 232568, here 2 is repeated at alternate position
 
+Author : Phaneendhra
 
 """
 
