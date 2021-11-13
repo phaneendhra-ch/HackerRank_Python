@@ -38,6 +38,6 @@ def validate(a):
 res = list(map(validate,postal_code))
 print("valid" if res.count(True)<2 else "Invalid")
 
-##Solution2 : Using Zip
+##Solution3 : Using Zip
 res= [a for a,b in zip(postal_code,postal_code[2:]) if a==b]
 print("valid" if len(res)<2 else "Invalid")
